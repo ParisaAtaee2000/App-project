@@ -1,0 +1,37 @@
+section.SCREENSHOTS {
+    background-color: #1f2326;
+    width: 100%;
+    color: white;
+  }
+  
+  section.SCREENSHOTS > div {
+    padding: 15px;
+    text-align: center;
+    font-family: "Core";
+  }
+  
+  section.SCREENSHOTS > div > h2 {
+    margin-top: 0;
+  }
+  
+  section.SCREENSHOTS > div > h4 {
+    font-size: 22px;
+  }
+  section.SCREENSHOTS > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  section.SCREENSHOTS > div > div > img {
+    display: block;
+    width: 25%;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 15px 15px;
+  }
+  
+  section.SCREENSHOTS > div > div > img:hover {
+    opacity: 0.8;
+    transform: scale(1.01);
+  }

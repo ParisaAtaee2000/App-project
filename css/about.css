@@ -1,0 +1,62 @@
+section.about {
+    background-color: #141719;
+    color: white;
+  
+    padding-bottom: 0;
+    font-family: "Core";
+  }
+  
+  section.about > h2 {
+    font-size: 45px;
+    padding-left: 25px;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  section.about > section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  section.about > section > div {
+    width: 80%;
+    text-align: justify;
+  }
+  
+  section.about > section > div > h3 {
+    font-size: 25px;
+    padding-left: 25px;
+  }
+  
+  section.about > section > div > p {
+    line-height: 35px;
+    padding-left: 25px;
+  }
+  
+  section.about > section > div[data-rightside] {
+    width: 40%;
+  }
+  section.about > section > div[data-rightside] > h3 {
+    text-align: center;
+  }
+  
+  section.about > section > div > progress {
+    display: block;
+    padding: 15px;
+    width: 250px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  section.about > img {
+    display: block;
+    width: 100%;
+  }
+  @media (max-width: 768) {
+    section.about > section {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+  }

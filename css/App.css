@@ -1,0 +1,25 @@
+@import url(./normalize.css);
+
+@import url(./main.scss);
+
+@import url(./fontface.css);
+
+@import url(./header.css);
+
+@import url(./intro.css);
+
+@import url(./FEATURES.css);
+
+@import url(./phone-back.css);
+
+@import url(./SCEENSHOTS.css);
+
+@import url(./about.css);
+
+@import url(./team.css);
+
+@import url(./contact.css);
+
+@import url(./Download.css);
+
+@import url(./footer.css);

@@ -1,0 +1,65 @@
+section.HOME {
+    min-height: 100vh;
+    background-image: url(../img/home_bkgd.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+section.HOME > ul {
+    font-family: "";
+    height: 6rem;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+section.HOME > ul > li {
+}
+
+section.HOME > ul > li > a {
+    color: #fff;
+}
+section.HOME > ul > li button{
+    font-size: 12px;
+    padding:.2rem .4rem;
+    font-family: system-ui;
+    background-color: #b9bbcc;
+    color: rgba(0, 0, 0, 0.685);
+    border-radius: 10px;
+}
+
+section.HOME > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    flex-direction: column;
+    line-height: 45px;
+}
+section.HOME > div > h1 {
+    margin: 40px;
+    font-family: "";
+    font-size: 55px;
+}
+section.HOME > div > h3 {
+    margin: 50px;
+    font-family: "";
+    font-size: 40px;
+}
+
+section.HOME > div > button {
+    margin: 55px;
+    background-color: #b9bbcc;
+    color: rgba(0, 0, 0, 0.685);
+    margin-top: 25px;
+    padding: 1.5px 47px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-family: system-ui;
+}
+section.HOME > ul > li button:hover ,
+section.HOME > div > button:hover {
+    color: #fff;
+    background-color: #b9bbcca6;
+    box-shadow: 0 8px 8px 0 #000;
+}

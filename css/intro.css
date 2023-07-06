@@ -1,0 +1,27 @@
+section.intro{
+    padding: 100px;
+    background-color: #1f2326;
+    padding-bottom: 0;
+    text-align: center;
+}
+section.intro h2 {
+  margin: 0px;
+  padding: 30px;
+  font-size: 45px;
+  font-family: "Core";
+
+}
+section.intro > hr {
+    width: 200px;
+  }
+section.intro div {
+    text-align: justify;
+}
+section.intro div p {
+    font-family: "";
+    font-size: 17px;
+    padding: 18px;
+
+}
+section.intro img {
+}
